@@ -23,10 +23,10 @@ public:
             return;
         }
         if(size[pu] < size[pv]) {
-            parent[pu] = parent[pv];
+            parent[pu] = pv;
             size[pv] += size[pu];
         } else {
-            parent[pv] = parent[pu];
+            parent[pv] = pu;
             size[pu] += size[pv];
         }
     }
