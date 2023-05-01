@@ -1,0 +1,14 @@
+{
+	"save_on_focus_lost": true,
+	"theme": "auto",
+	"trim_automatic_white_space": false,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	// "font_face": "fira code",
+	"color_scheme": "Packages/Material Monokai/MaterialMonokaiDark.tmTheme",
+	"auto_complete": false,
+
+	"font_size": 14,
+}
